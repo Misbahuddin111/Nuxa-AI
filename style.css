@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(87, 4, 87), rgb(231, 20, 231), rgb(77, 151, 151));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-transform: capitalize;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-right: 15px;
+   
+}
+.nav-logo{
+    font-size: 1.3rem;
+    padding-left: 15px;
+    word-spacing: 0.25rem;
+
+}
+.nav-panel li{ display: inline;
+       margin: 8px;
+}
+.nav-panel li a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: white;
+    transition: all 0s ease-in;
+}
+.nav-panel li a:hover{
+color: rgb(21, 135, 228);
+border-bottom: 1px solid blueviolet;
+}
+
+.nav-btn{
+    font-size: 0.85rem;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgba(8, 8, 168, 0.678);
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+.btn:hover{
+    transition: all 0.5s ease-in;
+    border-bottom:1px solid black ;
+}
+.nav-btn:hover{
+    background-color:blue;
+    color: rgb(192, 183, 183);
+}
+.main-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  margin-top: 5rem;
+  
+
+
+}
+.main-sec h2{
+font-size: 0.80rem;
+font-weight: lighter;
+word-spacing: 2px;
+letter-spacing: 3px;
+border: 1px solid rgb(165, 132, 165);
+padding: 5px 10px;
+border-radius: 8px;
+position: relative;
+right: 2.5%;
+
+}
+.main-sec h1{
+    display: flex;
+    flex-basis: 30%;
+    width: 30%;
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+
+.main-sec p{
+    margin-top: 1%;
+  width: 40%;
+  padding-left: 5%;
+  line-height: 25px;
+}
+.btns{
+    margin: 1.5rem;
+    cursor: pointer;
+    
+}
+#btn1{
+    font-size: 0.80rem;
+    padding: 10px;
+    word-spacing: 2px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 100;
+    background-color: rgb(26, 26, 175);
+    cursor: pointer;
+}
+
+#btn2{
+    font-size: 0.80rem;
+    padding: 10px;
+    word-spacing: 2px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 100;
+    background-color: rgb(26, 26, 175);
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#btn1:hover{
+    background-color:blue;
+    color: rgb(192, 183, 183);
+}
+#btn2:hover{
+    background-color:blue;
+    color: rgb(192, 183, 183);
+}
